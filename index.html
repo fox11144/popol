@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>신승민 포트폴리오 | 홈</title>
+  <meta name="description" content="XR 크리에이터 & 웹 개발자 신승민의 포트폴리오 웹사이트입니다.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">SEUNGMIN SHIN</a>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">홈</a></li>
+          <li><a href="profile.html">인적사항</a></li>
+          <li><a href="activities.html">활동사항</a></li>
+          <li><a href="skills.html">자격사항</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle-btn" title="테마 변경" aria-label="테마 변경">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <a href="admin.html" class="admin-login-btn" title="관리자 모드 로그인" aria-label="관리자 로그인">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+      </a>
+      <button class="menu-toggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="hero-subtitle">XR & Game Content Creator</div>
+        <h1 class="hero-title">상상을 현실로 만드는<br>크리에이터 <span>신승민</span>입니다.</h1>
+        <p class="hero-desc">
+          부산 출신의 열정적인 XR 및 게임 개발 크리에이터 지망생으로, 끈기 있는 실행력과 풍부한 인문학적 영감을 갖추었습니다. 
+          코딩과 생성형 AI 기술을 활용하여 몰입감 있는 인터랙티브 경험을 설계합니다.
+        </p>
+        <div class="hero-actions">
+          <a href="profile.html" class="btn btn-primary">프로필 보기</a>
+          <a href="activities.html" class="btn btn-secondary">활동사항 확인</a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <div class="hero-image-wrapper">
+          <img src="./images/dog.jpg" alt="반려견 dog 이미지" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Gallery / Showcase Section -->
+    <section class="gallery-section">
+      <h2 class="section-title">Creative Gallery</h2>
+      <p class="section-subtitle">생성형 AI 및 가상현실 창작물 Showcase</p>
+      
+      <div class="gallery-grid">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+          <img src="./images/AI로%20만들어봄%201.png" alt="AI 가상환경 디자인" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">AI 가상환경 디자인</h3>
+            <p class="gallery-desc">생성형 AI 프롬프트 엔지니어링을 통한 입체 공간 시각화</p>
+          </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+          <img src="./images/ai2.png" alt="XR 인터랙션 목업" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">XR 콘텐츠 디자인</h3>
+            <p class="gallery-desc">사용자 몰입감을 극대화한 가상공간 그래픽 개발</p>
+          </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+          <img src="./images/고양이1.jpg" alt="반려묘 고양이 컨셉" class="gallery-img">
+          <div class="gallery-overlay">
+            <h3 class="gallery-title">반려묘 고양이 컨셉</h3>
+            <p class="gallery-desc">친근하고 따뜻한 느낌을 주는 반려동물 캐릭터 디자인</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Shin Seung Min. All Rights Reserved. | Designed with Antigravity</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
